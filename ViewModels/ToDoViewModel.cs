@@ -18,7 +18,7 @@ namespace MVVM_API_SampleProject.ViewModels
             {
                 UserId= 1,
                 Id= 1,
-                Title = "Ana, Edu e Lucas",
+                Title = "Michel & Thiago",
                 Completed = true
             };
         }

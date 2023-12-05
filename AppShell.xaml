@@ -6,9 +6,26 @@
     xmlns:local="clr-namespace:MVVM_API_SampleProject"
     Shell.FlyoutBehavior="Disabled">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+
+    <TabBar>
+
+
+      
+            <ShellContent 
+                Title="Post"
+                ContentTemplate="{ DataTemplate local:PostView }"
+                Route="PostView"/>
+
+            <ShellContent 
+                Title="ToDo" 
+                ContentTemplate="{ DataTemplate local:ToDoView }"
+                Route="ToDoView" />
+         
+        
+
+    </TabBar>
+
+
+
 
 </Shell>
